@@ -1,0 +1,17 @@
+.posts-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 70%;
+  list-style-type: none;
+  padding: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.loader-container-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}

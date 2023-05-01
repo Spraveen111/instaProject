@@ -1,0 +1,157 @@
+.post-List-Item {
+  box-shadow: 0px 8px 40px rgba(8, 8, 8, 0.09);
+  background-color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.profileImg-name {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 55px;
+  background-image: linear-gradient(to right, #e20337, #c60188, #7700c3);
+  border-radius: 50%;
+}
+
+.img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 3px solid white;
+  align-self: center;
+  margin: 5px;
+}
+
+.user-home-profile-name {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #262626;
+  font-weight: 500;
+  margin-left: 10px;
+}
+@media screen and (min-width: 768px) {
+  .user-home-profile-name {
+    font-size: 18px;
+  }
+}
+
+.post-image {
+  width: 100%;
+}
+
+.likes-comments-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.likes-comment-share-container {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.likes-comments-icons {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+  color: #475569;
+}
+
+.like-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+.likesCount {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #262626;
+  font-weight: 500;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .likesCount {
+    font-size: 17px;
+  }
+}
+
+.caption {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #262626;
+  font-weight: 500;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+.comments-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  list-style-type: none;
+  margin: 0px;
+  margin-left: 15px;
+  padding: 0px;
+}
+
+.commentItem {
+  margin: 0px;
+  padding: 0px;
+}
+
+.comment {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #262626;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.commenterName {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #262626;
+  font-weight: 500;
+}
+
+.created-time {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 400;
+  color: #989898;
+  margin-top: 4px;
+  margin-left: 15px;
+}
+
+.loader-container-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Home-failure-img {
+  height: 30px;
+  width: 30px;
+}

@@ -1,0 +1,112 @@
+.userstories-posts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.slick-container {
+  width: 70%;
+  max-width: 1100px;
+  margin-top: 40px;
+}
+
+.logo-image {
+  margin: 0px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #334155;
+}
+
+.slickUsername {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #262626;
+  font-weight: 500;
+  width: 100px;
+}
+
+.loader-container-stories {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+.posts-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 70%;
+  list-style-type: none;
+  padding: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.loader-container-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+.failureView-content-home {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.Home-failure-img {
+  width: 400px;
+  height: 400px;
+}
+
+.failure-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #262626;
+}
+
+.try-again-btn {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: #4094ef;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 119px;
+}
+
+.searchResults {
+  font-family: 'Roboto';
+  font-size: 19px;
+  font-weight: 500;
+  color: #262626;
+}

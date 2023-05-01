@@ -1,0 +1,253 @@
+.userProfileContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.user-profile-content {
+  display: flex;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.user-profile-pic {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-profile-bio-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 28px;
+}
+
+.user-profile-name {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+  color: #262626;
+  margin-left: 0px;
+}
+
+.userposts-followers-following {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
+
+.user-posts-count {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.user-counts {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  color: #262626;
+  margin-right: 20px;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .user-counts {
+    font-size: 20px;
+  }
+}
+.count {
+  font-family: 'Roboto';
+  font-size: 19px;
+  font-weight: 600;
+  color: #262626;
+}
+
+.user-profile-user-name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  color: #262626;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.specificUserBio {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 400;
+  color: #262626;
+  margin-top: 4px;
+}
+
+.user-profile-storyline-list {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  width: 70%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.user-story-list-items {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 115px;
+  background-image: linear-gradient(to right, #334155);
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+/* .my-story-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 115px;
+  background-image: linear-gradient(to right, #334155);
+  border-radius: 50%;
+} */
+
+.user-story-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 3px solid white;
+  align-self: center;
+  margin: 5px;
+}
+
+.dash {
+  border: 1px solid #c6c6c8;
+  width: 70%;
+}
+
+.user-profile-posts-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  max-width: 1040px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.user-icon-name-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.user-posts-icon {
+  height: 20px;
+  width: 20px;
+  margin: 10px;
+}
+
+.user-posts-name {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 400;
+  color: #262626;
+}
+
+.user-profile-posts-list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  max-width: 1040px;
+  padding: 0px;
+  margin: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .user-profile-posts-list-container {
+    width: 90%;
+    max-width: 600px;
+  }
+}
+
+.user-profile-posts-list-item {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.user-post-images {
+  height: 220px;
+  width: 220px;
+  margin: 15px;
+}
+.posts-failure {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.user-posts-failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.user-no-posts-icon {
+  height: 50px;
+  width: 50px;
+}
+
+.user-no-posts-text {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 400;
+  color: #262626;
+}
+
+.failureView-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.failure-img {
+  width: 50%;
+}
+
+.failure-text {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  color: #262626;
+}
+
+.try-again-btn {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: #4094ef;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 119px;
+}
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
